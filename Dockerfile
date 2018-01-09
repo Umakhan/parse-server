@@ -14,3 +14,4 @@ RUN export NODE_PATH=/parse/node_modules
 
 # VOLUME /parse/cloud
 CMD npm start
+RUN curl https://getforge.com/cloud66-webhook?parse_setting_id=$PARSE_SETTING_ID
